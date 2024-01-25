@@ -1,0 +1,15 @@
+:root {
+    --azul : #1B4AC5;
+    --azul2 : #0D5F99;
+    --verde : #25DD4D;
+    --preto : #000000;
+    --cinza: #cececec4;
+
+
+    --f1:clamp(0.8rem, 1vh, 1rem);
+    --f2:clamp(1rem, 1vh, 1.2rem);
+    --f3:clamp(1.2rem, 1vh, 1.5rem);
+    --f4:clamp(1.5rem, 1vh, 2rem);
+    --f5:clamp(2rem, 1vh, 4rem);
+    --f6:clamp(3rem, 1vh, 6rem);
+}

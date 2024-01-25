@@ -1,0 +1,20 @@
+footer.box-footer{ 
+    background: #bdb8b8;
+}
+
+footer.box-footer .margin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+footer.box-footer .margin h3 {
+   font-family: 'Inter';
+   font-size: var(--f2);
+}
+
+footer.box-footer .margin p {
+  font-family: 'Inter';
+  font-size: var(--f1);
+}

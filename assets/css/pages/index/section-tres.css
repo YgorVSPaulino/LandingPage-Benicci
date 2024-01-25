@@ -1,0 +1,72 @@
+section.tres {
+    position: relative;
+    background: linear-gradient(90deg, #e6e6e6 , #ffffff);
+}
+
+section.tres h2 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 700;
+    font-size: var(--f6);
+    color: var(--azul);
+    padding: 40px 0 80px 500px;
+}
+section.tres .quadros {
+    display: flex;
+    justify-content: center;
+}
+section.tres .quadros .caixas p {
+    font-family: 'Inter';
+    font-size: var(--f2);
+    padding: 10px 0 0 0;
+    max-width: 150px;
+}
+section.tres .quadros .caixas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 50px;
+}
+
+section.tres .quadro {
+  width: 200px;
+  height: 200px;
+  background-color: var(--cinza);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 2px 2px 3px  var(--azul);
+
+}
+section.tres h3 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+section.tres .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+section.tres .btn a {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: var(f3);
+    background-color: var(--verde);
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Inter';
+    color: white;
+    padding: 20px 40px;
+    margin: 150px 600px 100px 500px;
+}

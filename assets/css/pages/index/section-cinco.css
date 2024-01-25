@@ -1,0 +1,32 @@
+section.cinco {
+display: flex;
+width: 100%;
+height: 100vh;
+position: relative;
+justify-content: space-between;
+background: linear-gradient(90deg, #e6e6e6 , #ffffff);
+}
+
+section.cinco .quemsomos {
+   width: 50%;
+   max-width: 800px;
+}
+
+section.cinco .fachada {
+  margin: 80px 200px 0 0;
+}
+
+section.cinco .quemsomos h2 {
+   font-family: 'Inter' , sans-serif;
+   font-weight: 700;
+   font-size: var(--f6);
+   color: var(--azul);
+   padding: 100px 100px 50px 150px;
+}
+
+section.cinco .quemsomos p {
+   font-family: 'Inter';
+   font-size: 25px;
+   margin: 10px 0 70px 150px;
+   padding: 0 0 0 0px;
+}
