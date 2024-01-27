@@ -52,4 +52,43 @@ section.um div.texto a {
 }
 section.um .image {
     padding: 60px 180px 0 0;
+    z-index: 5;
+    position: relative;
+}
+
+section.um .circulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: 4px dashed var(--cinza);
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: -300px;
+  right: -300px;
+  animation: rodando 35s infinite;
+}
+
+section.um .texto .circulo-dois {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: 4px dashed var(--cinza);
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  left: -100px;
+  top: 450px;
+  animation: rodando 35s infinite;
+}
+
+@keyframes rodando {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
