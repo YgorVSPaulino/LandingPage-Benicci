@@ -32,3 +32,7 @@ section.quatro .card .stars img {
 section.quatro::-webkit-scrollbar {
     display: none;
 }
+
+@media screen and (max-width: 1000px) {
+  
+}

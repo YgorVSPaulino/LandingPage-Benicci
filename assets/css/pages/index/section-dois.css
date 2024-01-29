@@ -62,3 +62,68 @@ section.dois .blush.dois {
   left: 140px;
   z-index: 3;
 }
+
+@media screen and (max-width: 1000px) {
+  section.dois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 200px 0 0 0;
+    background: linear-gradient(90deg,#ffffff , #e6e6e6 );
+}
+
+section.dois div.texto {
+    padding: 0 0 300px 0;
+    margin: 0 0 70px 0;
+    margin-top: -100px;
+   
+}
+
+section.dois div.texto h2 {
+    padding: 0 0 0 50px;
+    font-size: var(--f6);
+  
+}
+section.dois div.texto p {
+    font-size: var(--f3);
+    margin: 70px 20px 70px 50px;
+}
+section.dois div.texto a {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: var(--f3);
+    background-color: var(--verde);
+    text-decoration: none;
+    padding: 20px 60px;
+    border-radius: 15px;
+    font-family: 'Inter';
+    color: white;
+    background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
+    margin: 0px 0 0 140px;
+}
+
+section.dois .images{
+    width: 100%;
+    max-width: 900px;
+    margin-top: -200px;
+    padding: 0 0 60px 120px;
+    display: none;
+}
+section.dois .ofta {
+    z-index: 3;
+    position: relative;
+}
+section.dois .blush.um {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 1;
+}
+section.dois .blush.dois {
+  position: absolute;
+  top: 490px;
+  left: 140px;
+  z-index: 3;
+}
+}

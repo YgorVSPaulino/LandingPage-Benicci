@@ -18,3 +18,7 @@ footer.box-footer .margin p {
   font-family: 'Inter';
   font-size: var(--f1);
 }
+
+@media screen and (max-width: 1000px) {
+  
+}

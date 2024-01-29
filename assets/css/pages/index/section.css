@@ -92,3 +92,50 @@ section.um .texto .circulo-dois {
     transform: rotate(360deg);
   }
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  section.um {
+    z-index: 1;
+}
+
+section.um div.texto {
+    max-width: 800px; 
+    padding: 50px 0 0 30px;
+}
+
+section.um div.texto h1 {
+  font-size: var(--f6);
+  margin: 0 0 15px 0;
+}
+
+section.um div.texto h3 {
+  font-size: var(--f4);
+  margin: 0 0 30px 0;
+}
+
+section.um div.texto p {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: var(--f3);
+  margin: 10px 0 70px 0;
+  
+}
+
+section.um div.texto a {
+    margin: 0 0 0 40px;
+    z-index: 2;
+}
+section.um .image {
+   display: none;
+}
+
+section.um .texto .circulo-dois {
+  width: 300px;
+  height: 300px;
+  left: -100px;
+  top: 540px;
+  animation: rodando 35s infinite;
+}
+}
