@@ -2,7 +2,7 @@
 section.quatro {
     width: 100%;
     position: relative;
-    overflow-x: scroll;
+    overflow-y: scroll;
     background: linear-gradient(90deg,#ffffff , #e6e6e6 );
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@ section.quatro {
     padding: 50px;
 }
 section.quatro .card {
-  width: 230px;
+  width: 290px;
   height: 230px;
   padding: 15px;
   background-color: #afafaf22;
@@ -25,8 +25,31 @@ section.quatro .card {
   position: relative;
 }
 
+section.quatro .card .pessoa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  margin: 0 20px 0 0;
+  width: 100%;
+}
+section.quatro .card p {
+  font-family: 'Inter';
+  font-weight: 400;
+}
+section.quatro .card .stars {
+  margin: 20px 0 0 0;
+  left: 15px;
+  position: relative;
+}
+section.quatro .card .stars .google {
+  position: relative;
+  left: 50px;
+  top: 5px;
+}
+
 section.quatro .card .stars img {
-  width: 15px;
+  width: 20px;
 }
 
 section.quatro::-webkit-scrollbar {
@@ -34,5 +57,25 @@ section.quatro::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 1000px) {
-  
+  section.quatro {
+    justify-content: flex-start;
+    overflow-y: scroll;
+    padding: 50px;
+}
+section.quatro .card {
+  width: 280px;
+  max-width: 280px;
+  min-width: 280px;
+  height: 230px;
+  padding: 15px;
+  margin: 0 20px 0 0;
+}
+
+section.quatro .card .stars img {
+  width: 15px;
+}
+
+section.quatro::-webkit-scrollbar {
+    display: none;
+}
 }

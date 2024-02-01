@@ -11,6 +11,7 @@ section.um div.texto {
     width: 100%;
     max-width: 1200px; 
     padding: 100px 0 0 140px;
+    z-index: 3;
 }
 
 section.um div.texto h1 {
@@ -48,7 +49,11 @@ section.um div.texto a {
     border-radius: 15px;
     font-family: 'Inter';
     color: white;
-    background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
+    background: linear-gradient(to bottom, var(--verde) , #85c766c7 );
+    transition: all 0.3s; 
+}
+section.um div.texto a:hover {
+  background-color: #45ff07;
 }
 section.um .image {
     padding: 60px 180px 0 0;
@@ -67,7 +72,8 @@ section.um .circulo {
   height: 600px;
   top: -300px;
   right: -300px;
-  animation: rodando 35s infinite;
+  animation: rodando 35s linear infinite;
+  z-index: 1;
 }
 
 section.um .texto .circulo-dois {
@@ -81,7 +87,7 @@ section.um .texto .circulo-dois {
   height: 600px;
   left: -100px;
   top: 450px;
-  animation: rodando 35s infinite;
+  animation: rodando 35s linear infinite;
 }
 
 @keyframes rodando {
@@ -101,7 +107,7 @@ section.um .texto .circulo-dois {
 }
 
 section.um div.texto {
-    max-width: 800px; 
+    max-width: 900px; 
     padding: 50px 0 0 30px;
 }
 
@@ -129,6 +135,18 @@ section.um div.texto a {
 }
 section.um .image {
    display: none;
+}
+
+section.um .circulo {
+  
+  border: 4px dashed var(--cinza);
+  border-radius: 50%;
+  width: 430px;
+  height: 430px;
+  top: -300px;
+  right: -300px;
+  animation: rodando 35s linear infinite;
+  z-index: 1;
 }
 
 section.um .texto .circulo-dois {

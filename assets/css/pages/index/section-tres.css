@@ -62,13 +62,17 @@ section.tres .btn a {
     font-family: 'Inter';
     font-weight: 700;
     font-size: var(f3);
-    background-color: var(--verde);
+    background: linear-gradient(to bottom, var(--verde) , #85c766c7 );
     text-decoration: none;
     border-radius: 15px;
     font-family: 'Inter';
     color: white;
     padding: 20px 40px;
     margin: 150px 600px 100px 500px;
+    transition: all 0.3s;
+}
+section.tres .btn a:hover {
+    background-color:  #45ff07;
 }
 
 @media screen and (max-width: 1000px) {
@@ -84,11 +88,13 @@ section.tres .quadros {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 50px 0 0 0;
 }
 section.tres .quadros .caixas p {
     font-family: 'Inter';
     font-size: var(--f2);
-    padding: 10px 0 0 0;
+    padding: 15px 0 0 0;
+    margin: 0 0 30px 0;
     max-width: 150px;
 }
 section.tres .quadros .caixas {
@@ -127,11 +133,6 @@ section.tres .btn {
 }
 
 section.tres .btn a {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    font-family: 'Inter';
-    font-weight: 700;
     font-size: var(f3);
     background-color: var(--verde);
     text-decoration: none;
@@ -139,6 +140,6 @@ section.tres .btn a {
     font-family: 'Inter';
     color: white;
     padding: 20px 40px;
-    margin: 150px 600px 100px 500px;
+    margin: 120px 0px 100px 0px;
 }
 }

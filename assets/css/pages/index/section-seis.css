@@ -37,13 +37,16 @@ section.seis .contatos a {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 20px;
-    background-color: var(--verde);
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 15px;
     color: white;
-    background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
-    margin: 0 0 0 160px
+    background: linear-gradient(to bottom, var(--verde) , #85c766c7 ); 
+    margin: 0 0 0 160px;
+    transition: all 0.3s;
+}
+section.seis .contatos a:hover {
+  background-color:  #45ff07;
 }
 section.seis .contatos .contato {
     display: flex;
@@ -78,7 +81,7 @@ section.seis .mapa {
 
 section.seis .contatos {
     width: 100%;
-    margin: 30px 0 0 150px;
+    margin: 30px 10px 0 0px;
 }
 section.seis .contatos h2 {
     display: flex;
@@ -95,7 +98,7 @@ section.seis .contatos h3 {
     justify-content: center;
     font-size: var(--f5);
     color: var(--azul);
-    margin: 30px 0 ;
+    margin: 50px 0 ;
 }
 
 section.seis .contatos a {
@@ -108,12 +111,8 @@ section.seis .contatos a {
     border-radius: 15px;
     color: white;
     background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
-    margin: 0 0 0 160px
+    margin: 0 0 0 80px
 }
-section.seis .contatos .contato {
-    display: none;
-  
-} 
 section.seis .contatos .contato p {
     font-family: 'Inter';
     font-weight: 400;
@@ -122,7 +121,7 @@ section.seis .contatos .contato p {
 }
 
 section.seis .contatos .contato img {
-    margin: 15px;
+    margin: 20px 20px 20px 30px;
     width: 35px;
 }
 

@@ -30,14 +30,17 @@ section.dois div.texto a {
     font-family: 'Inter';
     font-weight: 700;
     font-size: var(--f3);
-    background-color: var(--verde);
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 15px;
     font-family: 'Inter';
     color: white;
-    background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
+   background: linear-gradient(to bottom, var(--verde) , #85c766c7 ); 
     margin: 0 0 0 100px;
+    transition: all 0.3s;
+}
+section.dois div.texto a:hover {
+  background-color:  #45ff07;
 }
 
 section.dois .images{
@@ -93,37 +96,75 @@ section.dois div.texto a {
     font-family: 'Inter';
     font-weight: 700;
     font-size: var(--f3);
-    background-color: var(--verde);
     text-decoration: none;
-    padding: 20px 60px;
+    padding: 20px 40px;
     border-radius: 15px;
     font-family: 'Inter';
     color: white;
-    background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
+    background: linear-gradient(to bottom, var(--verde) , #85c766c7 ); 
     margin: 0px 0 0 140px;
+    
 }
 
 section.dois .images{
-    width: 100%;
-    max-width: 900px;
-    margin-top: -200px;
-    padding: 0 0 60px 120px;
-    display: none;
+  width: 100%;
+  max-width: 10px;
+  margin-top: -100px;
+  padding: 0 0 0px 10px;
 }
 section.dois .ofta {
-    z-index: 3;
-    position: relative;
+  z-index: 3;
+  position: absolute;
+  width: 200px;
+  top: 500px;
+  left: 130px;
+  
 }
 section.dois .blush.um {
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    z-index: 1;
+  position: absolute;
+  top: 500px;
+  left: 130px;
+  z-index: 1;
+  width: 200px;
+ 
 }
 section.dois .blush.dois {
-  position: absolute;
-  top: 490px;
-  left: 140px;
+position: absolute;
+top: 750px;
+left: 140px;
+z-index: 3;
+width: 200px;
+display: none;
+}
+}
+
+/* section.dois .images{
+  width: 100%;
+  max-width: 100px;
+  margin-top: -100px;
+  padding: 0 0 0px 10px;
+}
+section.dois .ofta {
   z-index: 3;
+  position: absolute;
+  width: 200px;
+  top: 600px;
+  left: 150px;
+  display: none;
 }
+section.dois .blush.um {
+  position: absolute;
+  top: 600px;
+  left: 150px;
+  z-index: 1;
+  width: 200px;
+  display: none;
 }
+section.dois .blush.dois {
+position: absolute;
+top: 750px;
+left: 140px;
+z-index: 3;
+width: 200px;
+display: none;
+} */
