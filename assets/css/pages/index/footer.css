@@ -6,7 +6,7 @@ footer.box-footer .margin {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
+    margin: 0 70px;
 }
 
 footer.box-footer .margin h3 {
@@ -28,7 +28,7 @@ footer.box-footer .margin {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
+    margin: 0 60px;
 }
 footer.box-footer .margin .politica, .guias {
   display: none;
