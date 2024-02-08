@@ -85,7 +85,7 @@ section.dois div.texto {
 
 section.dois div.texto h2 {
     padding: 0 0 0 50px;
-    font-size: var(--f6);
+    font-size: 40px;
   
 }
 section.dois div.texto p {
@@ -102,7 +102,7 @@ section.dois div.texto a {
     font-family: 'Inter';
     color: white;
     background: linear-gradient(to bottom, var(--verde) , #85c766c7 ); 
-    margin: 0px 0 0 140px;
+    margin: 0px 0 0 100px;
     
 }
 
@@ -117,7 +117,7 @@ section.dois .ofta {
   position: absolute;
   width: 200px;
   top: 500px;
-  left: 130px;
+  left: 90px;
   
 }
 section.dois .blush.um {

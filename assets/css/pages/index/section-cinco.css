@@ -54,9 +54,9 @@ section.cinco .quemsomos p {
     section.cinco .quemsomos h2 {
        font-family: 'Inter' , sans-serif;
        font-weight: 700;
-       font-size: var(--f6);
+       font-size: 40px;
        color: var(--azul);
-       padding: 0px 0px 50px 50px;
+       padding: 0px 0px 50px 40px;
     }
     
     section.cinco .quemsomos p {
