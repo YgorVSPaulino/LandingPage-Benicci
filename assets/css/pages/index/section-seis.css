@@ -111,7 +111,7 @@ section.seis .contatos a {
     border-radius: 15px;
     color: white;
     background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
-    margin: 0 0 0 70px
+    margin: 0 0 0 50px
 }
 section.seis .contatos .contato p {
     font-family: 'Inter';
