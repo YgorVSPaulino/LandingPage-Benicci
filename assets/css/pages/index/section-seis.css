@@ -30,7 +30,7 @@ section.seis .contatos h3 {
     justify-content: center;
     font-size: var(--f5);
     color: var(--azul);
-    margin: 30px 20px 30px 0 ;
+    margin: 30px 30px 30px 0 ;
 }
 
 section.seis .contatos a {
