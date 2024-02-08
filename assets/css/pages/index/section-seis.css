@@ -98,7 +98,7 @@ section.seis .contatos h3 {
     justify-content: center;
     font-size: var(--f5);
     color: var(--azul);
-    margin: 50px 0 ;
+    margin: 50px 60px 50px 0 ;
 }
 
 section.seis .contatos a {
@@ -111,7 +111,7 @@ section.seis .contatos a {
     border-radius: 15px;
     color: white;
     background: linear-gradient(to bottom, var(--verde) , #74ff33c7 ); 
-    margin: 0 0 0 80px
+    margin: 0 0 0 70px
 }
 section.seis .contatos .contato p {
     font-family: 'Inter';
