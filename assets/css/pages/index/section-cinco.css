@@ -9,15 +9,15 @@ background: linear-gradient(90deg, #e6e6e6 , #ffffff);
 
 section.cinco .quemsomos {
    width: 50%;
-   max-width: 800px;
+   max-width: 600px;
 }
 
 section.cinco .fachada {
-  margin: 80px 200px 0 0;
+  margin: 80px 300px 0 0;
 }
 
 section.cinco .quemsomos h2 {
-   font-family: 'Inter' , sans-serif;
+   font-family: 'Inter';
    font-weight: 700;
    font-size: var(--f6);
    color: var(--azul);
