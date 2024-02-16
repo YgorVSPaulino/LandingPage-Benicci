@@ -16,6 +16,7 @@ section.seis .contatos {
     margin: 30px 0 0 150px;
 }
 section.seis .contatos h2 {
+    font-family: 'Inter';
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +31,7 @@ section.seis .contatos h3 {
     justify-content: center;
     font-size: var(--f5);
     color: var(--azul);
-    margin: 30px 30px 30px 0 ;
+    margin: 30px 100px 30px 0 ;
 }
 
 section.seis .contatos a {
